@@ -15,7 +15,7 @@ y = df[target]
 
 # stratify keeps the (imbalanced) purchase ratio consistent across splits
 Xtrain, Xtest, ytrain, ytest = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify="ProdTaken"   # complete the code: which variable should stay balanced across the splits?
+    X, y, test_size=0.2, random_state=42, stratify=y   # complete the code: which variable should stay balanced across the splits?
 )
 
 Xtrain.to_csv("Xtrain.csv", index=False)

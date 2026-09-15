@@ -1,6 +1,6 @@
 import pandas as pd
 
-RAW_PATH = "/content/AML_MLOps_Assessment/Data/tourism.csv"  # complete the code: path to the raw tourism.csv file inside the data folder
+RAW_PATH = "AML_MLOps_Assessment/Data/tourism.csv"  # complete the code: path to the raw tourism.csv file inside the data folder
 
 # Load the raw dataset
 df = pd.read_csv(RAW_PATH)
